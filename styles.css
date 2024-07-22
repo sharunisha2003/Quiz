@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e6d0da;
+}
+
+.container {
+    background: white;
+    padding: 20px; 
+    /* border-radius: 8px; */ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    /* text-align: center; */
+}
+
+.option {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+}
+.container span{
+    background-color: rgb(177, 110, 110);
+    padding:10px;
+    align-items: center;
+    margin-left: -10px;
+    color:white;
+}
